@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ddd url(../img/noisy_blue.jpg) repeat top left;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}
+
+.ib-container {
+    position: relative;
+    width: 800px;
+    margin-top: 30px;
+    margin-right: auto;
+}
+.ib-container:before, .ib-container:after {
+    content: "";
+    display: table;
+}
+
+.ib-container:after {
+    clear: both;
+}
+
+.ib-container article {
+    width: 140px;
+    height: 220px;
+    background: #a4c639;
+
+}
