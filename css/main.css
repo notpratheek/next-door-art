@@ -161,7 +161,7 @@ textarea {
     opacity: 0.5;
 }
 
-ib-container article.active {
+.ib-container article.active {
     transform: scale(1.05);
     box-shadow: 
         0px 0px 0px 0px rgba(225, 225, 225, 1),
@@ -170,9 +170,9 @@ ib-container article.active {
     opacity: 1;
 }
 
-ib-container article.active h3 a,
-ib-container article.active header span,
-ib-container article.active p {
+.ib-container article.active h3 a,
+.ib-container article.active header span,
+.ib-container article.active p {
     opacity: 1;
 }
 /* ==========================================================================
